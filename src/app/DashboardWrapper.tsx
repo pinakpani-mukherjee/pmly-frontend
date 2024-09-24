@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect } from "react";
-import Navbar from "./(Components)/Navbar";
-import Sidebar from "./(Components)/Sidebar";
+import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
 import StoreProvider, { useAppSelector } from "./redux";
 import { setIsSidebarCollapsed } from "./state";
 
