@@ -10,7 +10,7 @@ export interface Project {
 
 export enum Status {
     ToDo = "To Do",
-    WorkInProgress = "Work in Progress",
+    WorkInProgress = "Work In Progress",
     UnderReview = "Under Review",
     Completed = "Completed"
 }
