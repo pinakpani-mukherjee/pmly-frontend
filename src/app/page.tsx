@@ -1,7 +1,8 @@
+import { Task } from "gantt-task-react";
+import HomePage from "./HomePage/page";
+import { useAppSelector } from "./redux";
+import { Priority, useGetProjectsQuery, useGetTasksQuery } from "./state/api";
+
 export default function Home() {
-  return (
-    <main className="row-start-2 flex flex-col items-center gap-8 sm:items-start">
-      Hello World
-    </main>
-  );
+  return <HomePage />;
 }
