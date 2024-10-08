@@ -142,7 +142,7 @@ const HomePage = () => {
           <h3 className="mb-4 text-lg font-semibold dark:text-white">
             Your Tasks
           </h3>
-          <div style={{ height: 300, width: "100%" }}>
+          <div style={{ height: 500, width: "100%" }}>
             <DataGrid
               rows={tasks}
               columns={taskColumns}
